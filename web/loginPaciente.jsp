@@ -35,7 +35,7 @@
                         <form class="form-signin" method="post" action="controller.htm">
                             <c:if test="${msg!=null}">
                                 <div class="alert alert-danger">
-                                    <strong>Atención!</strong>
+                                    <strong>Atención!</strong><br>
                                     ${msg}
                                 </div>
                             </c:if>
